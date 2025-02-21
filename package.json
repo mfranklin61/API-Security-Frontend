@@ -1,0 +1,32 @@
+{
+  "name": "api-security-frontend",
+  "version": "1.0.0",
+  "description": "Test Frontend Application for the APIs built for security practices",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mfranklin61/API-Security-Frontend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mfranklin61/API-Security-Frontend/issues"
+  },
+  "homepage": "https://github.com/mfranklin61/API-Security-Frontend#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "gh-pages": "^6.3.0",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.0.8",
+    "vite": "^6.1.1"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}
